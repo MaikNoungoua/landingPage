@@ -8,6 +8,79 @@ div{
     height: 400px;
 }
 
+ul {
+    list-style-type: none;
+}
+li{
+    float: right;
+    margin-left: 20px;
+}
+
+#div1{
+    background-color: #1F2937;
+}
+
+.indiv1{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+}
+
+.left-block{
+    margin: auto;
+    height: 100%;
+    width: 50%;
+}
+
+.right-block{
+    margin: auto;
+    height: 100%;
+    width: 50%;
+}
+
+#div1-pic{
+
+    height: 250px;
+    width: 450px;
+}
+.top-links{
+    align-items: right;
+    color: #e5e7eb;
+    font-size: 17px;
+}
+
+#big-text{
+    font-weight: bold;
+    font-size: x-large;
+    color: #e5e7eb;
+    margin-bottom: 0px;
+}
+
+#smaller-text{
+    margin-top: 0px;
+    color: #e5e7eb;
+}
+
+#signup-div1{
+    background-color: #3882f6;
+    font-size: 17px;
+    color: #e5e7eb;
+    border-radius: 3px;
+}
+
+#header-logo{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #e5e7eb;
+    
+}
+
+
+
+
+/* ### SECTION FOR DIV 2 ### */
 #div2{
     display: flex;
 }
@@ -41,6 +114,9 @@ div{
     border-radius: 10px;
 }
 
+
+/* ### SECTION FOR DIV 3 ### */
+
 #div3{
     background-color: #e5e7eb; 
     display: flex;
@@ -49,17 +125,15 @@ div{
 .fordiv3{
     flex-direction: column;
     margin: auto;
-    width: 50%;
+    width: 100%;
+    background-color: #e5e7eb
 }
 
-.quote{
-    
+.quote{   
     font-size: 36px;
     font-style: italic;
     font-family: roboto;
-    /*margin-left: 125px;*/
     color: #1F2937;
-    /*margin-top: 40px;*/
 }
 
 .author{
@@ -70,9 +144,62 @@ div{
    
     
 }
+/* ### SECTION FOR DIV 4 ### */
+#div4{
+    height: 200px;
+}
 .indiv4{
     background-color: #3882f6;
     margin: auto;
-    width:70%;
+    width:80%;
+    display: flex;
+    margin-top: 140px;
+    border-radius: 3px;
 }
 
+.p-in-div4{
+    font-size: 20px;
+    font-weight:bold;
+    color: #e5e7eb;
+    font-family: roboto;
+    margin-bottom: 0px;
+}
+
+.p2-in-div4{
+    font-size: 11px;
+    color: #e5e7eb;
+    font-family: roboto;
+    margin-top: 0px
+}
+
+.button-div4{
+    margin-left: 480px;
+    margin-bottom: 15px;
+    align-self: end;
+    width: 90px;
+    color: white;
+    background-color: #3882f6;
+    border: #e5e7eb solid 3px;
+    border-radius: 3px;
+}
+
+a{
+    color: #e5e7eb;
+}
+
+
+/* ### SECTION FOR DIV 5 ### */
+
+#div5{
+    background-color: #1F2937;
+    height: 50px;
+}
+#last-section{
+    margin: auto;
+    width: 50%;
+}
+#copyright{
+    color: #e5e7eb;
+    margin-top: 15px;
+    margin-left: 155px;
+}
