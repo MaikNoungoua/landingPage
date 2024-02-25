@@ -3,7 +3,7 @@ body{
 }
 
 div{
-    margin-left: 200px;
+    margin-left: 130px;
     width: 1100px;
     height: 400px;
 }
@@ -120,6 +120,7 @@ li{
 #div3{
     background-color: #e5e7eb; 
     display: flex;
+    height: 200px;
 }
 
 .fordiv3{
@@ -146,7 +147,7 @@ li{
 }
 /* ### SECTION FOR DIV 4 ### */
 #div4{
-    height: 200px;
+    height: 100px;
 }
 .indiv4{
     background-color: #3882f6;
